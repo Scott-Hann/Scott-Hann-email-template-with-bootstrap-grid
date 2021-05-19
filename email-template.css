@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    /* flex-direction: column; */
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.orange-button {
+    border-radius: 5px;
+    border-color: transparent;
+    background-color:rgb(245, 189, 68);
+    color:cornsilk;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 70%;
+}
+.transparent-button {
+    background-color: transparent;
+    border-color: transparent;
+    color: cornsilk;
+    /* padding-left: 20px; */
+    justify-content: start;
+}
+#content {
+    color:rgb(49, 49, 49)
+}
+#inbox-button {
+    font-weight: bold;
+}
+#msg-icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    margin: 20px;
+    vertical-align: middle;
+    width: 40px;
+}
+#navigation {
+    background-color:rgb(68, 62, 58);
+    color:cornsilk;
+}
+#navigation p {
+    font-size: small;
+    margin-top: 35px;
+}
+#subject {
+    background-color: cornsilk;
+    color:rgb(68, 62, 58);
+}
+
+@include media-breakpoint-up (sm) {
+
+}
+@include media-breakpoint-up (lg) {
+    body {
+        /* flex-direction: row; */
+    }
+}
